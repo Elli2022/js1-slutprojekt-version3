@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(50, 47, 47);
+    
+    margin: 0px;
+    /* width: 50px; */
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+    height: 100vh;
+    color: whitesmoke;
+    
+
+}
+
+
+/* .imagesInContainer{
+   border-radius: 20px;
+
+} */
+
+img {
+    margin: 10px;
+    object-fit: cover;
+
+}
+
+.selectedImages {
+    margin: 80px;
+    /* border: 15px solid pink;
+    border-radius: 50%; */
+    /* -webkit-transform: scale(1.5); */
+    /* or some other value */
+    transform: scale(1.2);
+    /* image-rendering: high-quality; */
+    display: block;
+    /* align-items: center;
+    justify-content: center; */
+    /*text-align: center;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.image-container{
+    display: flex;
+    transform: translateX(0);
+    transition: transform 0.5s;
+  
+    
+    
+}
+
+.carousel {
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    margin: auto;
+    overflow-x: hidden;
+    height: auto;
+    width: 1200px;
+    
+}
+
+
+
+.buttons-container {
+
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.btn {
+    background-color: rebeccapurple;
+    color:#fff;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    width: 49.5%;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn:focus {
+    outline: none;
+}
+
